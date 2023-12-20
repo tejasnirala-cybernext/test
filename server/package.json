@@ -1,0 +1,17 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "This is a HTTP server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index",
+    "dev": "nodemon index"
+  },
+  "author": "Tejas Nirala",
+  "license": "ISC",
+  "dependencies": {
+    "nodemon": "^3.0.2",
+    "url": "^0.11.3"
+  }
+}
